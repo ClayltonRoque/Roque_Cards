@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+  background: gray;
+}
+
+header {
+  background-color: black;
+  color: #f3f3f3;
+  font-size: 22px;
+  font-weight: 900;
+  position: fixed;
+  width: 100%;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+div{
+  background-color: black;
+  border: 5px solid blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+
+  border-radius: 20px;
+}
+
+  #cards{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+     
+      align-items: center;
+     
+
+      font-size: 16px;
+      font-weight: 600;
+      color: blueviolet;
+      margin-left: 60px;
+      margin-top: 42px;
+  }
+
+  #cards2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: blueviolet;
+    margin-top: 42px;
+   
+}
+
+
+  #cards3{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: blueviolet;
+    margin-right: 60px;
+    margin-top: 42px;
+  }
+
+img {
+    width: 350px;
+    height: 350px ;
+    border: 3px solid blueviolet;
+    border-radius: 175px 150px 200px 125px;
+    padding: 5px;
+    margin: 5px 10px 5px 10px;
+}
+
+p {
+    border: 3px solid blueviolet;
+    width: 50px;
+    padding: 5px;
+    border-radius: 999px;
+    margin-top: 12px;
+    
+}
+
+input {
+  text-align: center;
+  margin: 12px;
+  border-radius: 15px;
+  background-color: rgb(27, 26, 26);
+  border: solid 3px blueviolet;
+  color: blueviolet;
+  font-size: 16px;
+  padding: 5px;
+  
+}
+
